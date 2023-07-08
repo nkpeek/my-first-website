@@ -32,7 +32,7 @@ body {
 
   .banner {
     text-align: center;
-    padding: 50px;
+    padding: 100px;
     background-color: #f2f2f2;
     color: black;
   }
@@ -52,19 +52,30 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 50px;
+    padding-top: 10px;
   }
-
+.services{
+  background: black;
+  margin: auto;
+  padding: 15px;
+}
   .product {
     text-align: center;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #d8caca;
+  }
+  .section-heading{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
   }
 
   .product img {
     max-width: 100%;
   }
-
+.ccimage {
+width: 58%;
+}
   .about-us {
     padding: 50px;
   }
