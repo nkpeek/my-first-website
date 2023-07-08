@@ -5,13 +5,20 @@ body {
   }
 
   header {
-    background-color: #333;
+    background-color: #087230;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .logo img{
+    width: 30px;
   }
 
   nav {
     text-align: right;
+    margin-left: 35%;
+    font-size: 18px;
   }
 
   nav a {
@@ -19,11 +26,26 @@ body {
     margin-left: 10px;
     text-decoration: none;
   }
+  nav a:hover{
+    color: yellow;
+  }
 
   .banner {
     text-align: center;
     padding: 50px;
     background-color: #f2f2f2;
+    color: black;
+  }
+  .banner h1{
+    text-align: left;
+    color:rgb(0, 0, 231);
+  }
+  .banner p{
+    text-align: center;
+    font-weight: bolder ;
+    font-size: 16px;
+    color: blue;
+    text-transform: uppercase ;
   }
 
   .featured-products {
